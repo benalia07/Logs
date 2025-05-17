@@ -24,7 +24,7 @@ CREATE TABLE [log].[ENTRIES](
 	[UserId] [uniqueidentifier] NOT NULL,
 	[ActionId] [int] NOT NULL,
 	[EntityId] [uniqueidentifier] NOT NULL,
-	[Message] [varchar](50) NULL,
+	[Message] [varchar](MAX) NULL,
 	[Date] [date] NOT NULL
 ) ON [PRIMARY]
 GO
