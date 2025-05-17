@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{BAA09CE4-B151-4E80-94ED-44979F5EEC36}"
+	ProjectSection(SolutionItems) = preProject
+		DbLogs.txt = DbLogs.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogsAPI", "LogsAPI\LogsAPI.csproj", "{E6019781-C3FC-4316-A6A1-246232C13044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Managers", "Managers\Managers.csproj", "{E46FDEA5-891B-4D73-9CFE-C21B13F44227}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6019781-C3FC-4316-A6A1-246232C13044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6019781-C3FC-4316-A6A1-246232C13044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6019781-C3FC-4316-A6A1-246232C13044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6019781-C3FC-4316-A6A1-246232C13044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46FDEA5-891B-4D73-9CFE-C21B13F44227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46FDEA5-891B-4D73-9CFE-C21B13F44227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46FDEA5-891B-4D73-9CFE-C21B13F44227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46FDEA5-891B-4D73-9CFE-C21B13F44227}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F52FFFF-2CAF-42EC-AF52-6C98214D1052}
+	EndGlobalSection
+EndGlobal

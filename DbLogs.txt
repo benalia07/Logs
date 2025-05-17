@@ -1,0 +1,30 @@
+Create Database Logs;
+USE [Logs]
+GO
+/****** Object:  Schema [log]    Script Date: 5/17/2025 6:57:54 PM ******/
+CREATE SCHEMA [log]
+GO
+/****** Object:  Table [log].[ACTIONS]    Script Date: 5/17/2025 6:57:54 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [log].[ACTIONS](
+	[Id] [int] NOT NULL,
+	[Name] [varchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [log].[ENTRIES]    Script Date: 5/17/2025 6:57:54 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [log].[ENTRIES](
+	[Id] [uniqueidentifier] NOT NULL,
+	[UserId] [uniqueidentifier] NOT NULL,
+	[ActionId] [int] NOT NULL,
+	[EntityId] [uniqueidentifier] NOT NULL,
+	[Message] [varchar](50) NULL,
+	[Date] [date] NOT NULL
+) ON [PRIMARY]
+GO
